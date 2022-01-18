@@ -104,8 +104,15 @@ Execute command in following syntax: <br/>
 <code>
 git clone &lt;clone path&gt;  
 </code><br/>
+Where &lt;clone path&gt; is the clone gained through aforementioned process<br/>
 Then you will see the cloning process as shown below.<br/>
 ![Cloning Project](image/cloningProject.JPG "Cloning Project")<br/>
+
+## Execution
+Under a GitBash or VS Code, issue following command to execute the app.
+<code>
+go run .
+</code><br/>
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
@@ -114,8 +121,6 @@ Eventhough it's kind of low frequency of adjustment, I make following three cons
 | DevHostURL | localhost:8080
 | ARTICLES_FILE | articles.json |
 | MAX_ARTICLES_OF_TAGNAME_DATE_QUERY | 10 |
-
-## Execution
 
 ## Test Plan
 
