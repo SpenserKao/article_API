@@ -129,7 +129,7 @@ Following matric illustrates the mapping between test cases and requirements.<br
 | 6 | localhost:8080/articles/17 | R2 | List article with non-existing Id | Expected to see  ![error](output/op_articleNotFound.json "error")  |
 | 7 | http://localhost:8080/tags/climate%20change/2013-01-21 | R3 | List articles whose Date is "2013-01-21" and tag name is "Climate Change"| ![op_climate_change_2013-01-21](output/op_climate_change_2013-01-21.json "op_climate_change_2013-01-21.json") |
 
-### Via Web Browser
+### Via cURL
 #### Resemble to test case#1
 Find a GetBash, issue following command<br/>
 <code>
@@ -159,6 +159,20 @@ curl -X GET http://localhost:8080/articles/17
 ./curlGetArticleNonExisting.sh
 </code><br/>
 On screen, should see output message resemble to that of test case#6 stated above.
+
+#### Test Case#8
+Requirement Coverage: **_R1_**<br/>
+Find a GetBash, execute following command<br/>
+<code>
+curl -i \
+    -H "Content-Type: application/json" \
+    -X POST \
+    -d '{"Id":"19","Title":"Test Article 19 psuedo title","Date":"2022-01-17","Body":"Psuedo body","Tags": ["tag1", "tag2", "tag3"]}' \
+    http://localhost:8080/articles
+</code><br/>or shell script<br/>
+<code>
+./curlPost.sh
+</code><br/>
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
