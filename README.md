@@ -90,6 +90,16 @@ When not issued from VS Code, we need an shell emulation layer for executing cUR
 | GitBash | v2.23.0.windows.1 | aka Client URL |
 
 ## Setup/Installation
+### Enter GitBash and Preparation
+Open a GitBash and change into a working directory.<br/>
+Execute following command: <br/>
+<code>
+git init  
+</code>
+
+### Cloning
+Left-mouse click on green "Code" ![Code](CodeButton.JPG "Code") button at middle right of the screen, then click on ![Copy](CopyButton.JPG "Copy"), as illustrated by the screenshot below. <br/>
+![Find clone path](GetClonePath.JPG "Finding clone path")<br/>
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
