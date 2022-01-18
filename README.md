@@ -84,7 +84,7 @@ To transfer data to and from a server that hosts the article API.
 | cURL | v7.65.3 (x86_64-w64-mingw32) | aka Client URL |
 
 ### GitBash
-When not issued from VS Code, we need an shell emulation layer for executing cURL command, or issuing Git command.
+When not issued from VS Code, we need an shell emulation layer for executing cURL command, or issuing Git command.<br/>
 | Tool | Version | Remark |
 |---------------|---------|-------|
 | GitBash | v2.23.0.windows.1 | aka Client URL |
@@ -120,7 +120,7 @@ Either under VS Code or GetBash, once seeing following message, prepare to go to
 ### Test Matrix
 Following matric illustrates the mapping between test cases and requirements.<br/>
 | Test Case | URL | Requirement Id | Description |
-|-----------|----------------|--------|
+|-----------|----------------|--------|------------------------------------------------|
 | 1 | localhost:8080/articles/all | R4| List all articles. Compare with content of **_articles.json_** |
 | 2 | localhost:8080/articles/1 | R2 | List article with Id=1. Compare with content of **_articles.json_** |
 | 3 | localhost:8080/articles/2 | R2 | List article with Id=2. Compare with content of **_articles.json_** |
