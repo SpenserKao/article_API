@@ -44,7 +44,7 @@ It's required to create a simple API with three endpoints.
 **_R8_**: The **_count_** field **_shows the number of tags_** for the tag for that day.
 **_R9_**: The **_articles_** field contains a list of ids for the **_last 10 articles entered for that day_**.
 ## Design
-[Dataflow Diagram of ArticleAPI Server][ArticleAPI_Server.png]
+![Dataflow Diagram of ArticleAPI Server](ArticleAPI_Server.png "Dataflow Diagram of ArticleAPI Server")
 
 ### List of assumptions
 1. For requirement #8 (R8), those counted tags are non-duplicate.
