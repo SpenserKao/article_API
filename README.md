@@ -119,17 +119,17 @@ Either under VS Code or GetBash, once seeing following message, prepare to go to
 ## Test Plan
 ### Test Matrix
 Following matric illustrates the mapping between test cases and requirements.<br/>
-| Test Case | URL | Requirement Id | Description |
+| Test Case | URL | Requirement Id | Description | Expected Result |
 |-----------|----------------|--------|------------------------------------------------|
-| 1 | localhost:8080/articles/all | R4| List all articles. Compare with content of **_articles.json_** |
-| 2 | localhost:8080/articles/1 | R2 | List article with Id=1. Compare with content of **_articles.json_** |
-| 3 | localhost:8080/articles/2 | R2 | List article with Id=2. Compare with content of **_articles.json_** |
-| 4 | localhost:8080/articles/3 | R2 | List article with Id=3. Compare with content of **_articles.json_** |
-| 5 | localhost:8080/articles/4 | R2 | List article with Id=4. Compare with content of **_articles.json_** |
-| 6 | localhost:8080/articles/5 | R2 | List article with Id=5. Compare with content of **_articles.json_** |
-| 7 | localhost:8080/articles/6 | R2 | List article with Id=6. Compare with content of **_articles.json_** |
-| 8 | localhost:8080/articles/7 | R2 | List article with Id=7. Compare with content of **_articles.json_** |
-| 9 | localhost:8080/articles/8 | R2 | List article with Id=8. Compare with content of **_articles.json_** |
+| 1 | localhost:8080/articles/all | R4| List all articles |See ![op_articles.json][output/op_op_articles.json "op_op_articles.json"] |
+| 2 | localhost:8080/articles/1 | R2 | List article with Id=1 | See ![op_op_article1.json][output/op_op_article1.json "op_op_article1.json"] |
+| 3 | localhost:8080/articles/2 | R2 | List article with Id=2 | Compare with content of **_articles.json_** |
+| 4 | localhost:8080/articles/15 | R2 | List article with Id=15 | Compare with content of **_articles.json_** |
+| 5 | localhost:8080/articles/16 | R2 | List article with Id=16 | Compare with content of **_articles.json_** |
+| 6 | localhost:8080/articles/17 | R2 | List article with non-existing Id | Expected to see  ![error][output/op_articleNotFound.json "error"]  |
+| 7 | localhost:8080/articles/6 | R2 | List article with Id=6 | Compare with content of **_articles.json_** |
+| 8 | localhost:8080/articles/7 | R2 | List article with Id=7 | Compare with content of **_articles.json_** |
+| 9 | localhost:8080/articles/8 | R2 | List article with Id=8 | Compare with content of **_articles.json_** |
 | 10 | http://localhost:8080/tags/climate%20change/2013-01-21 | R3 | List articles whose Date is "2013-01-21" and tag name is "Climate Change". Compare with content of **_articles.json_** |
 
 ## Configuration
