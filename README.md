@@ -70,7 +70,7 @@ To code, execute the application at the server side. Or even execute curl comman
 |---------------|---------|
 | Visual Studio Code | v1.63.2 |
 ### Web Browser
-To open URL to access the article API.
+To open URL to access the article API. Following three major brands of browser work as expected.
 | Tool | Version | 
 |---------------|---------|
 | Firefox Developer Edition | v97.0b4 (64-bit) |
