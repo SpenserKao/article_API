@@ -163,13 +163,13 @@ On screen, should see output message resemble to that of test case#6 stated abov
 #### Test Case#8
 Requirement Coverage: **_R1_**<br/>
 Find a GetBash, execute following command<br/>
-<code>
+<pre>
 curl -i \
     -H "Content-Type: application/json" \
     -X POST \
     -d '{"Id":"19","Title":"Test Article 19 psuedo title","Date":"2022-01-17","Body":"Psuedo body","Tags": ["tag1", "tag2", "tag3"]}' \
     http://localhost:8080/articles
-</code><br/>or shell script<br/>
+</pre><br/>or shell script<br/>
 <code>
 ./curlPost.sh
 </code><br/>
