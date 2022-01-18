@@ -40,9 +40,10 @@ It's required to create a simple API with three endpoints.
       ]
 }
 ```
-**_R7_**: The **_related_tags_** field contains a list of tags that **_are on the articles that the current tag is on for the same day_**. It should not contain duplicates.
-**_R8_**: The **_count_** field **_shows the number of tags_** for the tag for that day.
+**_R7_**: The **_related_tags_** field contains a list of tags that **_are on the articles that the current tag is on for the same day_**. It should not contain duplicates.<br/>
+**_R8_**: The **_count_** field **_shows the number of tags_** for the tag for that day.<br/>
 **_R9_**: The **_articles_** field contains a list of ids for the **_last 10 articles entered for that day_**.
+
 ## Design
 ![Dataflow Diagram of ArticleAPI Server](ArticleAPI_Server.png "Dataflow Diagram of ArticleAPI Server")<br/>
 **_Gin_** web framework is utilised to build the application.<br/>
