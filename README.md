@@ -121,8 +121,8 @@ Either under VS Code or GetBash, once seeing following message, prepare to go to
 Following matric illustrates the mapping between test cases and requirements.<br/>
 | Test Case | URL | Requirement Id | Description | Expected Result |
 |-----------|----------------|--------|------------------------------------------------|------------|
-| 1 | localhost:8080/articles/all | R4| List all articles |See ![op_articles.json][output/op_articles.json "op_articles.json"] |
-| 2 | localhost:8080/articles/1 | R2 | List article with Id=1 | See ![op_article1.json][output/op_article1.json "op_article1.json"] |
+| 1 | localhost:8080/articles/all | R4| List all articles |![op_articles.json][output/op_articles.json "op_articles.json"] |
+| 2 | localhost:8080/articles/1 | R2 | List article with Id=1 | ![op_article1.json][output/op_article1.json "op_article1.json"] |
 | 3 | localhost:8080/articles/2 | R2 | List article with Id=2 | Compare with content of **_articles.json_** |
 | 4 | localhost:8080/articles/15 | R2 | List article with Id=15 | Compare with content of **_articles.json_** |
 | 5 | localhost:8080/articles/16 | R2 | List article with Id=16 | Compare with content of **_articles.json_** |
