@@ -134,7 +134,7 @@ Following matric illustrates the mapping between test cases and requirements.<br
 Find a GetBash, issue following command<br/>
 <code>
 curl -X GET http://localhost:8080/articles/all
-</code><br/>or shell script<br/>
+</code><br/>or shell script under GetBash:<br/>
 <code>
 ./curlGetArticles.sh
 </code><br/>
@@ -144,7 +144,7 @@ On screen, should see output message resemble to that of test case#1 stated abov
 Find a GetBash, execute following command<br/>
 <code>
 curl -X GET http://localhost:8080/articles/1
-</code><br/>or shell script<br/>
+</code><br/>or shell script under GetBash:<br/>
 <code>
 ./curlGetArticle1.sh
 </code><br/>
@@ -154,7 +154,7 @@ On screen, should see output message resemble to that of test case#2 stated abov
 Find a GetBash, execute following command<br/>
 <code>
 curl -X GET http://localhost:8080/articles/17
-</code><br/>or shell script<br/>
+</code><br/>or shell script under GetBash:<br/>
 <code>
 ./curlGetArticleNonExisting.sh
 </code><br/>
@@ -169,10 +169,17 @@ curl -i \
     -X POST \
     -d '{"Id":"19","Title":"Test Article 19 psuedo title","Date":"2022-01-17","Body":"Psuedo body","Tags": ["tag1", "tag2", "tag3"]}' \
     http://localhost:8080/articles
-</pre><br/>or shell script<br/>
+</pre><br/>or shell script under GetBash:<br/>
 <code>
 ./curlPost.sh
 </code><br/>
+
+To verify the result of such "POST" act, either use a web brwser to open following URL:<br/>
+<code>locslhost:8080/articles/19</code><br/>or shell script under GetBash:<br/>
+<code>
+./curlGetArticle19.sh
+</code><br/>
+
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
