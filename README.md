@@ -44,7 +44,7 @@ It's required to create a simple API with three endpoints.
 **_R8_**: The **_count_** field **_shows the number of tags_** for the tag for that day.
 **_R9_**: The **_articles_** field contains a list of ids for the **_last 10 articles entered for that day_**.
 ## Design
-![Dataflow Diagram of ArticleAPI Server](ArticleAPI_Server.png "Dataflow Diagram of ArticleAPI Server")
+![Dataflow Diagram of ArticleAPI Server](ArticleAPI_Server.png "Dataflow Diagram of ArticleAPI Server")<br/>
 **_Gin_** web framework is utilised to build the application.
 **_Gin_** is a HTTP web framework written in Go (Golang). It features a Martini-like API with up to 40 times faster performance. 
 
