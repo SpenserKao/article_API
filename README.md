@@ -109,10 +109,11 @@ Then you will see the cloning process as shown below.<br/>
 ![Cloning Project](image/cloningProject.JPG "Cloning Project")<br/>
 
 ## Execution
-Under a GitBash or VS Code, issue following command to execute the app.
+Under a GitBash or VS Code, issue following command to execute the app.<br/>
 <code>
 go run .
 </code><br/>
+Either under VS Code or GetBash, once seeing following message, prepare to go to a browser for further testing from frontend.
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
