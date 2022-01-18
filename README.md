@@ -102,8 +102,8 @@ Left-mouse click on green "Code" ![Code](image/codeButton.JPG "Code") button at 
 ![Find clone path](image/getClonePath.JPG "Finding clone path")<br/>
 Execute command in following syntax: <br/>
 <code>
-git clone <clone path>  
-</code>
+git clone &lt;clone path&gt;  
+</code><br/>
 Then you will see the cloning process as shown below.<br/>
 ![Cloning Project](image/cloningProject.JPG "Cloning Project")<br/>
 
