@@ -114,6 +114,7 @@ Under a GitBash or VS Code, issue following command to execute the app.<br/>
 go run .
 </code><br/>
 Either under VS Code or GetBash, once seeing following message, prepare to go to a browser for further testing from frontend.
+![Backend Execution Message](image/backendExecution.JPG "Backend Execution Message")<br/>
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
