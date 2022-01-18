@@ -98,8 +98,10 @@ git init
 </code>
 
 ### Cloning
-Left-mouse click on green "Code" ![Code](codeButton.JPG "Code") button at middle right of the screen, then click on ![Copy](copyButton.JPG "Copy") button, as illustrated by the screenshot below. <br/>
+Left-mouse click on green "Code" ![Code](image/codeButton.JPG "Code") button at middle right of the screen, then click on ![Copy](image/copyButton.JPG "Copy") button, as illustrated by the screenshot below. <br/>
 ![Find clone path](GetClonePath.JPG "Finding clone path")<br/>
+Then you will see the cloning process as shown below.
+![Cloning Project](image/cloningProject.JPG "Cloning Project")<br/>
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
