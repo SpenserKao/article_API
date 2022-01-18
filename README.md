@@ -116,8 +116,8 @@ go run .
 Either under VS Code or GetBash, once seeing following message, prepare to go to a browser for further testing from frontend.<br/>
 ![Backend Execution Message](image/backendExecution.JPG "Backend Execution Message")<br/>
 
-## Test Plan
-### Test Matrix
+## Test
+### Via Web Browser
 Following matric illustrates the mapping between test cases and requirements.<br/>
 | Test Case | URL | Requirement Id | Description | Expected Result |
 |-----------|----------------|--------|------------------------------------------------|------------|
@@ -127,10 +127,38 @@ Following matric illustrates the mapping between test cases and requirements.<br
 | 2 | localhost:8080/articles/15 | R2 | List article with Id=15 | ![op_article15.json](output/op_article15.json "op_article15.json") |
 | 3 | localhost:8080/articles/16 | R2 | List article with Id=16 | ![op_article16.json](output/op_article16.json "op_article16.json") |
 | 6 | localhost:8080/articles/17 | R2 | List article with non-existing Id | Expected to see  ![error](output/op_articleNotFound.json "error")  |
-| 7 | localhost:8080/articles/6 | R2 | List article with Id=6 | Compare with content of **_articles.json_** |
-| 8 | localhost:8080/articles/7 | R2 | List article with Id=7 | Compare with content of **_articles.json_** |
-| 9 | localhost:8080/articles/8 | R2 | List article with Id=8 | Compare with content of **_articles.json_** |
-| 10 | http://localhost:8080/tags/climate%20change/2013-01-21 | R3 | List articles whose Date is "2013-01-21" and tag name is "Climate Change"| ![op_climate_change_2013-01-21](output/op_climate_change_2013-01-21.json "op_climate_change_2013-01-21.json") |
+| 7 | http://localhost:8080/tags/climate%20change/2013-01-21 | R3 | List articles whose Date is "2013-01-21" and tag name is "Climate Change"| ![op_climate_change_2013-01-21](output/op_climate_change_2013-01-21.json "op_climate_change_2013-01-21.json") |
+
+### Via Web Browser
+#### Resemble to test case#1
+Find a GetBash, issue following command<br/>
+<code>
+curl -X GET http://localhost:8080/articles/all
+</code><br/>or shell script<br/>
+<code>
+./curlGetArticles.sh
+</code><br/>
+On screen, should see output message resemble to that of test case#1 stated above.
+
+#### Resemble to test case#2
+Find a GetBash, execute following command<br/>
+<code>
+curl -X GET http://localhost:8080/articles/1
+</code><br/>or shell script<br/>
+<code>
+./curlGetArticle1.sh
+</code><br/>
+On screen, should see output message resemble to that of test case#2 stated above.
+
+#### Resemble to test case#6
+Find a GetBash, execute following command<br/>
+<code>
+curl -X GET http://localhost:8080/articles/17
+</code><br/>or shell script<br/>
+<code>
+./curlGetArticleNonExisting.sh
+</code><br/>
+On screen, should see output message resemble to that of test case#6 stated above.
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
