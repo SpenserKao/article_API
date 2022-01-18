@@ -116,6 +116,22 @@ go run .
 Either under VS Code or GetBash, once seeing following message, prepare to go to a browser for further testing from frontend.<br/>
 ![Backend Execution Message](image/backendExecution.JPG "Backend Execution Message")<br/>
 
+## Test Plan
+### Test Matrix
+Following matric illustrates the mapping between test cases and requirements.<br/>
+| Test Case | URL | Requirement Id | Description |
+|-----------|----------------|--------|
+| 1 | localhost:8080/articles/all | R4| List all articles. Compare with content of **_articles.json_** |
+| 2 | localhost:8080/articles/1 | R2 | List article with Id=1. Compare with content of **_articles.json_** |
+| 3 | localhost:8080/articles/2 | R2 | List article with Id=2. Compare with content of **_articles.json_** |
+| 4 | localhost:8080/articles/3 | R2 | List article with Id=3. Compare with content of **_articles.json_** |
+| 5 | localhost:8080/articles/4 | R2 | List article with Id=4. Compare with content of **_articles.json_** |
+| 6 | localhost:8080/articles/5 | R2 | List article with Id=5. Compare with content of **_articles.json_** |
+| 7 | localhost:8080/articles/6 | R2 | List article with Id=6. Compare with content of **_articles.json_** |
+| 8 | localhost:8080/articles/7 | R2 | List article with Id=7. Compare with content of **_articles.json_** |
+| 9 | localhost:8080/articles/8 | R2 | List article with Id=8. Compare with content of **_articles.json_** |
+| 10 | http://localhost:8080/tags/climate%20change/2013-01-21 | R3 | List articles whose Date is "2013-01-21" and tag name is "Climate Change". Compare with content of **_articles.json_** |
+
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
 | Constant | Value (string) |
@@ -123,8 +139,6 @@ Eventhough it's kind of low frequency of adjustment, I make following three cons
 | DevHostURL | localhost:8080
 | ARTICLES_FILE | articles.json |
 | MAX_ARTICLES_OF_TAGNAME_DATE_QUERY | 10 |
-
-## Test Plan
 
 ## Wish list
 - Move articles data from file to MongoDB
