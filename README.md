@@ -100,7 +100,7 @@ git init
 ### Cloning
 Left-mouse click on green "Code" ![Code](image/codeButton.JPG "Code") button at middle right of the screen, then click on ![Copy](image/copyButton.JPG "Copy") button, as illustrated by the screenshot below. <br/>
 ![Find clone path](image/getClonePath.JPG "Finding clone path")<br/>
-Then you will see the cloning process as shown below.
+Then you will see the cloning process as shown below.<br/>
 ![Cloning Project](image/cloningProject.JPG "Cloning Project")<br/>
 
 ## Configuration
