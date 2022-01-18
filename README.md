@@ -123,9 +123,9 @@ Following matric illustrates the mapping between test cases and requirements.<br
 |-----------|----------------|--------|------------------------------------------------|------------|
 | 1 | localhost:8080/articles/all | R4| List all articles |![op_articles.json](output/op_articles.json "op_articles.json") |
 | 2 | localhost:8080/articles/1 | R2 | List article with Id=1 | ![op_article1.json](output/op_article1.json "op_article1.json") |
-| 3 | localhost:8080/articles/2 | R2 | List article with Id=2 | Compare with content of **_articles.json_** |
-| 4 | localhost:8080/articles/15 | R2 | List article with Id=15 | Compare with content of **_articles.json_** |
-| 5 | localhost:8080/articles/16 | R2 | List article with Id=16 | Compare with content of **_articles.json_** |
+| 3 | localhost:8080/articles/2 | R2 | List article with Id=2 | ![op_article2.json](output/op_article2.json "op_article2.json") |
+| 2 | localhost:8080/articles/15 | R2 | List article with Id=15 | ![op_article15.json](output/op_article15.json "op_article15.json") |
+| 3 | localhost:8080/articles/16 | R2 | List article with Id=16 | ![op_article16.json](output/op_article16.json "op_article16.json") |
 | 6 | localhost:8080/articles/17 | R2 | List article with non-existing Id | Expected to see  ![error](output/op_articleNotFound.json "error")  |
 | 7 | localhost:8080/articles/6 | R2 | List article with Id=6 | Compare with content of **_articles.json_** |
 | 8 | localhost:8080/articles/7 | R2 | List article with Id=7 | Compare with content of **_articles.json_** |
