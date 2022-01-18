@@ -113,7 +113,7 @@ Under a GitBash or VS Code, issue following command to execute the app.<br/>
 <code>
 go run .
 </code><br/>
-Either under VS Code or GetBash, once seeing following message, prepare to go to a browser for further testing from frontend.
+Either under VS Code or GetBash, once seeing following message, prepare to go to a browser for further testing from frontend.<br/>
 ![Backend Execution Message](image/backendExecution.JPG "Backend Execution Message")<br/>
 
 ## Configuration
