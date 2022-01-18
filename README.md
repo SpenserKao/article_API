@@ -175,7 +175,7 @@ curl -i \
 </code><br/>
 
 To verify the result of such "POST" act, either use a web brwser to open following URL:<br/>
-<code>locslhost:8080/articles/19</code><br/>or shell script under GetBash:<br/>
+<code>localhost:8080/articles/19</code><br/>or shell script under GetBash:<br/>
 <code>
 ./curlGetArticle19.sh
 </code><br/>
