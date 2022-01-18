@@ -92,7 +92,6 @@ When not issued from VS Code, we need an shell emulation layer for executing cUR
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
-To ease maintenance, when the need arises, adjust following two constants at the top of **_main.go_**:
 | Constant | Value (string) |
 |---------------|---------|
 | DevHostURL | localhost:8080
