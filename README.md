@@ -139,7 +139,7 @@ There are eight test cases as explained below through a matric mapping between t
 
 **Note on the design of test case#7**: 
 - 12 artices, whose Ids are 2, 5, 7 ~ 16, commonly containing **_date 2013-01-21_** and one **_tag name 'climate change'_**.
-- The total numnber of articles is **_12_**, shall force to select only **_the_** ten **_most recent_** entries among them.
+- The total numnber of articles is **_12_**, shall force to select only the **_ten most recent_** entries among them.
 
 ### Via cURL
 #### Resemble to test case#1
