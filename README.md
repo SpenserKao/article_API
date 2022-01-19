@@ -124,8 +124,8 @@ Either under VS Code or GetBash, once seeing following message, prepare to go to
 ![Backend Execution Message](image/backendExecution.JPG "Backend Execution Message")<br/>
 
 ## Test
-### Via Web Browser
-Following matric illustrates the mapping between test cases and requirements.<br/>
+### Test Plan
+There are eight test cases as explained below through a matric mapping between test cases and requirements.<br/>
 | Test Case | URL or Tool    | REQ Id | Description | Expected Result |
 |:---------:|:---------------|:-------|:------------|:----------------|
 | 1 | localhost:8080/articles/all | R4| List all articles |![op_articles.json](output/op_articles.json "op_articles.json") |
