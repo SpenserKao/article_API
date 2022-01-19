@@ -137,6 +137,10 @@ There are eight test cases as explained below through a matric mapping between t
 | 7 | http://localhost:8080/tags/climate%20change/2013-01-21 | R3 | List articles whose Date is "2013-01-21" and tag name is "Climate Change"| ![op_climate_change_2013-01-21](output/op_climate_change_2013-01-21.json "op_climate_change_2013-01-21.json") |
 | 8 | cURL, explained more below | R1 | HTTP POST act | explained more below |
 
+**Note on the design of test case#7**: 
+- 12 artices, whose Ids are 2, 5, 7 ~ 16, commonly containing **_Date 2013-01-21_** and one **_Tag 'climate change'_**.
+- The total numnber of articles is 12, shall force the selection of ten most recent entries among them.
+
 ### Via cURL
 #### Resemble to test case#1
 Find a GetBash, issue following command<br/>
