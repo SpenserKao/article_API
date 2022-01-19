@@ -1,9 +1,9 @@
 # Technical Test on Article API
 ## _Abstract_
-For the technical test on an set of article API, this document outlines its requirements, and the design, development environment, test for its implementation. 
+For the technical test on an set of article API, this document outlines its requirements, and the design, development environment, test for its implementation.<br/> 
 **Each original requirement is assigned a unique id starting with capital 'R'**, which helps requirements management, especially when no management system is in place that is critical for team-based software development.
-Such unique requirement identification is also vital in designing test plan, particularly test case-to-requirement matrix. In addition, these requirement ids have been cited in codebase for pertinent implementation. 
-Other than three endpoins specified in teh original requirements, I have further added one to list attributes of all articles.
+Such unique requirement identification is also vital in designing test plan, particularly test case-to-requirement matrix. In addition, these requirement ids have been cited in codebase for pertinent implementation.<br/>
+Other than three endpoins specified in teh original requirements, I have further added one (**_R4_**) to list attributes of all articles.
 ## _Requirements_
 ### Endpoints
 It's required to create a simple API with three endpoints.
