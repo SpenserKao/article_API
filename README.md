@@ -138,8 +138,8 @@ There are eight test cases as explained below through a matric mapping between t
 | 8 | cURL, explained more below | R1 | HTTP POST act | explained more below |
 
 **Note on the design of test case#7**: 
-- 12 artices, whose Ids are 2, 5, 7 ~ 16, commonly containing **_Date 2013-01-21_** and one **_Tag 'climate change'_**.
-- The total numnber of articles is 12, shall force the selection of ten most recent entries among them.
+- 12 artices, whose Ids are 2, 5, 7 ~ 16, commonly containing **_date 2013-01-21_** and one **_tag name 'climate change'_**.
+- The total numnber of articles is **_12_**, shall force to select only **_the_** ten **_most recent_** entries among them.
 
 ### Via cURL
 #### Resemble to test case#1
