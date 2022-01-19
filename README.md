@@ -60,7 +60,7 @@ For the sake of maintenance, the source of articles data shall be contained in a
 |:-----------------|:-------:|-----------|:-------|
 | Golang | go1.17.1 windows/amd64 | | Mandatory choice of language |
 | github.com/gin-contrib/sse | v0.1.0 | go.mod & go.sum | Better performance of resultant web app |
-| github.com/gin-gonic/gin | v1.7.7 | ^^ | ^^ |
+| github.com/gin-gonic/gin | v1.7.7 |^^ |^^ |
 | time | | | Parse UTC-based EntryTime of each article |
 | sort | | | Sort multiple pieces of UTC-based EntryTime info before cutting of ten most recent entries |
 
