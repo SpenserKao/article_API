@@ -56,12 +56,13 @@ Originally, it's required to create a simple API with three endpoints. I've furt
 For the sake of maintenance, the source of articles data shall be contained in a file named **_articles.json_**. For possible further population of the input data, just do it at the file without having to go to modify the **_Go_** code, followed by rebuilding of the code.
 
 ### Choice of languages and library
-While **_Go_** language is mandatory, **_Gin_** web framework is chosen as backbone to implement the application.
-| Language/Library | Version | Reference |
-|---------------|---------|--------|
-| Golang | go1.17.1 windows/amd64 | |
-| github.com/gin-contrib/sse | v0.1.0 | go.mod & go.sum |
-| github.com/gin-gonic/gin | v1.7.7 | go.mod & go.sum |
+| Language/Library | Version | Reference | Reason |
+|------------------|---------|-----------|--------|
+| Golang | go1.17.1 windows/amd64 | | Mandatory choice of language |
+| github.com/gin-contrib/sse | v0.1.0 | go.mod & go.sum | Better performance of resultant web app |
+| github.com/gin-gonic/gin | v1.7.7 | go.mod & go.sum | |
+| time | | | Parse UTC-based EntryTime of each article |
+| sort | | | Sort multiple pieces of UTC-based EntryTime info before cutting of ten most recent entries |
 
 ## Development Environment
 ### IDE (Integrated Development Environment)
