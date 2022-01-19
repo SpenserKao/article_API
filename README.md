@@ -6,7 +6,7 @@ Such unique requirement identification is also vital in designing test plan, par
 Other than three endpoins specified in teh original requirements, I have further added one (**_R4_**) to list attributes of all articles.
 ## _Requirements_
 ### Endpoints
-It's required to create a simple API with three endpoints.
+Originally, it's required to create a simple API with three endpoints. I've further added one to list attributes of all articles. 
 - **_R1_: POST/articles** - Should hanlde the receipt of some article data in JSON format, and store within the service.
 - **_R2_: GET/articles/{id}** - Should return the JSON representation of the article.
 - **_R3_: GET/tags/{tagName}/{date}** - Should return the list of article(s) that have that tag name on the given date and some summary data about that tag for that day. 
