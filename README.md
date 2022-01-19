@@ -135,7 +135,7 @@ There are eight test cases as explained below through a matric mapping between t
 | 3 | localhost:8080/articles/16 | R2 | List article with Id=16 | ![op_article16.json](output/op_article16.json "op_article16.json") |
 | 6 | localhost:8080/articles/17 | R2 | List article with non-existing Id | Expected to see  ![error](output/op_articleNotFound.json "error")  |
 | 7 | http://localhost:8080/tags/climate%20change/2013-01-21 | R3 | List articles whose Date is "2013-01-21" and tag name is "Climate Change"| ![op_climate_change_2013-01-21](output/op_climate_change_2013-01-21.json "op_climate_change_2013-01-21.json") |
-| 8 | cURL, see more see below | R1 | HTTP POST act | see more see below |
+| 8 | cURL, explained more below | R1 | HTTP POST act | explained more below |
 
 ### Via cURL
 #### Resemble to test case#1
