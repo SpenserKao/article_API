@@ -126,8 +126,8 @@ Either under VS Code or GetBash, once seeing following message, prepare to go to
 ## Test
 ### Via Web Browser
 Following matric illustrates the mapping between test cases and requirements.<br/>
-| Test Case |       URL      | REQ Id | Description | Expected Result |
-|:---------:|:---------------|:------:|:------------|:----------------|
+| Test Case | URL or Tool    | REQ Id | Description | Expected Result |
+|:---------:|:---------------|:-------|:------------|:----------------|
 | 1 | localhost:8080/articles/all | R4| List all articles |![op_articles.json](output/op_articles.json "op_articles.json") |
 | 2 | localhost:8080/articles/1 | R2 | List article with Id=1 | ![op_article1.json](output/op_article1.json "op_article1.json") |
 | 3 | localhost:8080/articles/2 | R2 | List article with Id=2 | ![op_article2.json](output/op_article2.json "op_article2.json") |
@@ -135,6 +135,7 @@ Following matric illustrates the mapping between test cases and requirements.<br
 | 3 | localhost:8080/articles/16 | R2 | List article with Id=16 | ![op_article16.json](output/op_article16.json "op_article16.json") |
 | 6 | localhost:8080/articles/17 | R2 | List article with non-existing Id | Expected to see  ![error](output/op_articleNotFound.json "error")  |
 | 7 | http://localhost:8080/tags/climate%20change/2013-01-21 | R3 | List articles whose Date is "2013-01-21" and tag name is "Climate Change"| ![op_climate_change_2013-01-21](output/op_climate_change_2013-01-21.json "op_climate_change_2013-01-21.json") |
+| 8 | cURL, see more see below | R1 | HTTP POST act | see more see below |
 
 ### Via cURL
 #### Resemble to test case#1
@@ -181,8 +182,10 @@ curl -i \
 ./curlPost.sh
 </code><br/>
 
-To verify the result of such "POST" act, either use a web brwser to open following URL:<br/>
-<code>localhost:8080/articles/19</code><br/>or shell script under GetBash:<br/>
+#### Verification
+Either use a web brwser to open following URL:<br/>
+<code>localhost:8080/articles/19</code><br/>
+or shell script under GetBash:<br/>
 <code>
 ./curlGetArticle19.sh
 </code><br/>
