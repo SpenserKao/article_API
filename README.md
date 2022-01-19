@@ -111,7 +111,7 @@ Execute command in following syntax: <br/>
 <code>
 git clone &lt;clone path&gt;  
 </code><br/>
-Where &lt;clone path&gt; is the clone gained through aforementioned process<br/>
+Where &lt;clone path&gt; is the clone gained through aforementioned process.<br/>
 Then you will see the cloning process as shown below.<br/>
 ![Cloning Project](image/cloningProject.JPG "Cloning Project")<br/>
 
