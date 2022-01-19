@@ -10,7 +10,7 @@ Originally, it's required to create a simple API with three endpoints. I've furt
 - **_R1_: POST/articles** - Should hanlde the receipt of some article data in JSON format, and store within the service.
 - **_R2_: GET/articles/{id}** - Should return the JSON representation of the article.
 - **_R3_: GET/tags/{tagName}/{date}** - Should return the list of article(s) that have that tag name on the given date and some summary data about that tag for that day. 
-- **_R4_: GET/articles/all** - Not part of requirements, but proposed to list all articles' attributes. 
+- **_R4_: GET/articles/all** - Not part of original requirements, but proposed to list all articles' attributes. 
 ### Content Structure of an Article
 **_R5_**: An article has the following _attributes id_, _title_, _date_, _body_, and _list of tags_. for example:
 ```json
