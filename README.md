@@ -203,7 +203,7 @@ Eventhough it's kind of low frequency of adjustment, I make following three cons
 | ARTICLES_FILE | articles.json |
 | MAX_ARTICLES_OF_TAGNAME_DATE_QUERY | 10 |
 
-## Wish List
+## Wishlist
 - Move articles data from file to MongoDB.
 - Integrate Selenium + Ginkgo + Gomock for automated web application test.
 - Upon closure of the API application, the executioner should be asked whether to save the recent addition of article(s), very likely through "POST" act, back to data file **_articles.json_**.
