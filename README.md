@@ -174,7 +174,7 @@ On screen, should see output message resemble to that of test case#6 stated abov
 
 #### Test Case#8
 Requirement Coverage: **_R1_**<br/>
-Find a GetBash, execute following command<br/>
+Find a GitBash, execute following command<br/>
 <pre>
 curl -i \
     -H "Content-Type: application/json" \
