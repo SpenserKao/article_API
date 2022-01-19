@@ -70,6 +70,12 @@ To code, execute the application at the server side. Or even execute curl comman
 | Tool | Version | 
 |---------------|---------|
 | Visual Studio Code | v1.63.2 |
+
+### OS (Operating System)
+| OS | Version | OS Build |
+|----|---------|----------|
+| Windows 10 Home | 21H1 | 19043.1466 |
+
 ### Web Browser
 To open URL to access the article API. Following three major brands of browser work as expected.
 | Tool | Version | 
