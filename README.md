@@ -126,8 +126,8 @@ Either under VS Code or GetBash, once seeing following message, prepare to go to
 ## Test
 ### Via Web Browser
 Following matric illustrates the mapping between test cases and requirements.<br/>
-| Test Case | URL | Requirement Id | Description | Expected Result |
-|-----------|----------------|--------|------------------------------------------------|------------|
+| Test Case |       URL      | REQ Id | Description | Expected Result |
+|:---------:|:---------------|:------:|:------------|:----------------|
 | 1 | localhost:8080/articles/all | R4| List all articles |![op_articles.json](output/op_articles.json "op_articles.json") |
 | 2 | localhost:8080/articles/1 | R2 | List article with Id=1 | ![op_article1.json](output/op_article1.json "op_article1.json") |
 | 3 | localhost:8080/articles/2 | R2 | List article with Id=2 | ![op_article2.json](output/op_article2.json "op_article2.json") |
