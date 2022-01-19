@@ -51,7 +51,7 @@ Originally, it's required to create a simple API with three endpoints. I've furt
 
 ### List of assumptions
 1. For requirement #8 (R8), those counted tags are non-duplicate, including inquiring tag name.
-1. The date of each article proposed in the original requirements is assumed to be publishing date, hence I have to add a date-related field also contain time, of the article's entry, in order to be sortable to include the last **_ten_** articles **_entered_** for the date. The added field shall contain UTC time and be named **_EntryTime_**.
+1. The date of each article proposed in the original requirements is assumed to be publishing date, hence I have to add a date-related field also contain time, of the article's entry, in order to be sortable to include the most recently **_ten_** articles **_entered_** for the date. The added field shall contain UTC time and be named **_EntryTime_**.
 ### Source of articles data
 For the sake of maintenance, the source of articles data shall be contained in a file named **_articles.json_**. For possible further population of the input data, just do it at the file without having to go to modify the **_Go_** code, followed by rebuilding of the code.
 
