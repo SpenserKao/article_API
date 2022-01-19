@@ -55,8 +55,8 @@ Originally, it's required to create a simple API with three endpoints. I've furt
 ### Source of articles data
 For the sake of maintenance, the source of articles data shall be contained in a file named **_articles.json_**. For possible further population of the input data, just do it at the file without having to go to modify the **_Go_** code, followed by rebuilding of the code.
 
-### Choice of languages and library
-| Language/Library | Version | Reference | Reason |
+### Choice of languages and package
+| Language/Package | Version | Reference | Reason |
 |:-----------------|:-------:|-----------|:-------|
 | Golang | go1.17.1 windows/amd64 | | Mandatory choice of language |
 | github.com/gin-contrib/sse | v0.1.0 | go.mod & go.sum | Better performance of resultant web app |
