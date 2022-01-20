@@ -193,7 +193,7 @@ curl -i \
 </code><br/>
 
 #### Verification
-Either use a web brwser to open following URL:<br/>
+Either use a web browser to open following URL:<br/>
 <code>localhost:8080/articles/19</code><br/>
 or shell script<br/>
 <code>
