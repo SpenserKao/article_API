@@ -216,7 +216,7 @@ Eventhough it's kind of low frequency of adjustment, I make following three cons
 | MAX_ARTICLES_OF_TAGNAME_DATE_QUERY | 10 |
 
 ## _Wishlist_
-- Move articles data from file to MongoDB.
+- Move articles data from file to database, such as NoSQL MongoDB.
 - Integrate Selenium + Ginkgo + Gomock for automated web application test.
 - Upon closure of the API application, the executioner should be asked whether to save the recent addition of article(s), very likely through "POST" act, back to data file **_articles.json_**.
 - For requirement#1 (R1) re POST request act, do consider checking whether there exists a redundant article; if so, should reject the request. Of course, the criteria of redundancy is to be discussed, for instance, jointly attributes _Id_ and _Title_? Or more?
