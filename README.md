@@ -96,8 +96,6 @@ Other than using cURL for command line-based test, Google's Postman is a popular
 |---------------|---------|
 | Postman | v9.9.3| 
 
-
-
 ### GitBash
 When not issued from VS Code, we need an shell emulation layer for executing cURL command, or issuing Git command.<br/>
 | Tool | Version | Remark |
