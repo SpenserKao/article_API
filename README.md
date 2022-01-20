@@ -211,8 +211,8 @@ Paricularly for test case#7, those info following "-d", or "--data", option of c
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
-| Constant | Value (string) |
-|---------------|---------|
+| Constant | Value |
+|---------------|:---------|
 | DevHostURL | localhost:8080
 | ARTICLES_FILE | articles.json |
 | MAX_ARTICLES_OF_TAGNAME_DATE_QUERY | 10 |
