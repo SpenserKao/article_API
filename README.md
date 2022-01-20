@@ -194,13 +194,6 @@ curl -i \
 ./curlPost.sh
 </code><br/>
 
-## Via Postman
-Same above mentioned tests can also be conduct through Postman. Be sure to utlisie those aforementioned URLs in Postman. Screenshot shown below tells the corresponding test scripts.<br/>
-![Testing via Postman](image/TestViaPostman.JPG "Testing via Postman")<br/>
-
-Paricularly for test case#7, those info following "-d", or "--data", option of curl command can be fed into Postman as shown in screenshot below.<br/>
-![Speicying Data via Postman](image/SpeciyingDataViaPostman.JPG "Speicying Data via Postman")<br/>
-
 #### Verification
 Either use a web brwser to open following URL:<br/>
 <code>localhost:8080/articles/19</code><br/>
@@ -209,6 +202,12 @@ or shell script<br/>
 ./curlGetArticle19.sh
 </code><br/>
 
+## Via Postman
+Same above mentioned tests can also be conduct through Postman. Be sure to utlisie those aforementioned URLs in Postman. Screenshot shown below tells the corresponding test scripts.<br/>
+![Testing via Postman](image/TestViaPostman.JPG "Testing via Postman")<br/>
+
+Paricularly for test case#7, those info following "-d", or "--data", option of curl command can be fed into Postman as shown in screenshot below.<br/>
+![Speicying Data via Postman](image/SpeciyingDataViaPostman.JPG "Speicying Data via Postman")<br/>
 
 ## Configuration
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
