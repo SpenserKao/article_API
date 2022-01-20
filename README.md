@@ -90,6 +90,14 @@ To transfer data to and from a server that hosts the article API.
 |---------------|---------|-------|
 | cURL | v7.65.3 (x86_64-w64-mingw32) | aka Client URL |
 
+### Postman
+Other than using cURL for command line-based test, Google's Postman is a popular GUI-based tool for testing HTTP application.
+| Tool | Version |
+|---------------|---------|
+| Postman | v9.9.3| 
+
+
+
 ### GitBash
 When not issued from VS Code, we need an shell emulation layer for executing cURL command, or issuing Git command.<br/>
 | Tool | Version | Remark |
