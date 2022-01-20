@@ -44,7 +44,7 @@ Originally, it's required to create a simple API with three endpoints. I've furt
 **_R8_**: The **_count_** field **_shows the number of tags_** for the tag for that day.<br/>
 **_R9_**: The **_articles_** field contains a list of ids for the **_last 10 articles entered for that day_**.
 
-## Design
+## _Design_
 ![Dataflow Diagram of ArticleAPI Server](image/ArticleAPI_Server.png "Dataflow Diagram of ArticleAPI Server")<br/>
 **_Gin_** web framework is utilised to build the application.<br/>
 **_Gin_** is a HTTP web framework written in Go (Golang). It features a Martini-like API with up to 40 times faster performance. 
@@ -64,7 +64,7 @@ For the sake of maintenance, the source of articles data shall be contained in a
 | time | | | Parse UTC-based EntryTime of each article |
 | sort | | | Sort multiple pieces of UTC-based EntryTime info before cutting off ten most recent entries |
 
-## Development Environment
+## _Development Environment_
 ### OS (Operating System)
 | OS | Version | OS Build |
 |----|---------|----------|
@@ -104,7 +104,7 @@ When not issued from VS Code, we need an shell emulation layer for executing cUR
 |---------------|---------|-------|
 | GitBash | v2.23.0.windows.1 | aka Client URL |
 
-## Setup/Installation
+## _Setup/Installation_
 ### Enter GitBash and Preparation
 Open a GitBash and change into a working directory.<br/>
 Execute following command: <br/>
