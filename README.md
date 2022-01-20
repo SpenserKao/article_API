@@ -195,10 +195,10 @@ curl -i \
 </code><br/>
 
 ## Via Postman
-Those URLs can be utilised through Postman-based testings. Screenshot shown below tells the corresponding test scripts.<br/>
+Same above mentioned tests can also be conduct through Postman. Be sure to utlisie those aforementioned URLs in Postman. Screenshot shown below tells the corresponding test scripts.<br/>
 ![Testing via Postman](image/TestViaPostman.JPG "Testing via Postman")<br/>
 
-Paricularly for test case#7, those info following "--data" option of curl command can be fed into Postman as shown in screenshot below.<br/>
+Paricularly for test case#7, those info following "-d", or "--data", option of curl command can be fed into Postman as shown in screenshot below.<br/>
 ![Speicying Data via Postman](image/SpeciyingDataViaPostman.JPG "Speicying Data via Postman")<br/>
 
 #### Verification
