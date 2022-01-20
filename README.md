@@ -214,6 +214,7 @@ Eventhough it's kind of low frequency of adjustment, I make following three cons
 | DevHostURL | localhost:8080
 | ARTICLES_FILE | articles.json |
 | MAX_ARTICLES_OF_TAGNAME_DATE_QUERY | 10 |<br/>
+
 Change from adjusting these adjustables all indicated the configuration is reponsive as expected.
 
 ## _Wishlist_
