@@ -128,7 +128,7 @@ Under a GitBash or VS Code, issue following command to execute the app.<br/>
 <code>
 go run .
 </code><br/>
-Either under VS Code or GetBash, once seeing following message, prepare to go to a browser for further testing from frontend.<br/>
+Either under VS Code or GitBash, once seeing following message, prepare to go to a browser for further testing from frontend.<br/>
 ![Backend Execution Message](image/backendExecution.JPG "Backend Execution Message")<br/>
 
 ## Test
@@ -154,7 +154,7 @@ There are eight test cases as explained below through a matric mapping between t
 Find a GitBash, issue following command<br/>
 <code>
 curl -X GET http://localhost:8080/articles/all
-</code><br/>or shell script under GetBash:<br/>
+</code><br/>or shell script<br/>
 <code>
 ./curlGetArticles.sh
 </code><br/>
@@ -164,7 +164,7 @@ On screen, should see output message resemble to that of test case#1 stated abov
 Find a GitBash, execute following command<br/>
 <code>
 curl -X GET http://localhost:8080/articles/1
-</code><br/>or shell script under GetBash:<br/>
+</code><br/>or shell script<br/>
 <code>
 ./curlGetArticle1.sh
 </code><br/>
@@ -174,7 +174,7 @@ On screen, should see output message resemble to that of test case#2 stated abov
 Find a GitBash, execute following command<br/>
 <code>
 curl -X GET http://localhost:8080/articles/17
-</code><br/>or shell script under GetBash:<br/>
+</code><br/>or shell script<br/>
 <code>
 ./curlGetArticleNonExisting.sh
 </code><br/>
@@ -189,7 +189,7 @@ curl -i \
     -X POST \
     -d '{"Id":"19","Title":"Test Article 19 psuedo title","Date":"2022-01-17","Body":"Psuedo body","Tags": ["tag1", "tag2", "tag3"]}' \
     http://localhost:8080/articles
-</pre><br/>or shell script under GetBash:<br/>
+</pre><br/>or shell script<br/>
 <code>
 ./curlPost.sh
 </code><br/>
