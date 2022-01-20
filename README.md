@@ -151,7 +151,7 @@ There are eight test cases as explained below through a matric mapping between t
 
 ### Via cURL
 #### Resemble to test case#1
-Find a GetBash, issue following command<br/>
+Find a GitBash, issue following command<br/>
 <code>
 curl -X GET http://localhost:8080/articles/all
 </code><br/>or shell script under GetBash:<br/>
@@ -161,7 +161,7 @@ curl -X GET http://localhost:8080/articles/all
 On screen, should see output message resemble to that of test case#1 stated above.
 
 #### Resemble to test case#2
-Find a GetBash, execute following command<br/>
+Find a GitBash, execute following command<br/>
 <code>
 curl -X GET http://localhost:8080/articles/1
 </code><br/>or shell script under GetBash:<br/>
@@ -171,7 +171,7 @@ curl -X GET http://localhost:8080/articles/1
 On screen, should see output message resemble to that of test case#2 stated above.
 
 #### Resemble to test case#6
-Find a GetBash, execute following command<br/>
+Find a GitBash, execute following command<br/>
 <code>
 curl -X GET http://localhost:8080/articles/17
 </code><br/>or shell script under GetBash:<br/>
@@ -193,6 +193,13 @@ curl -i \
 <code>
 ./curlPost.sh
 </code><br/>
+
+## Via Postman
+Those URLs can be utilised through Postman-based testings. Screenshot shown below tells the corresponding test scripts.<br/>
+![Testing via Postman](image/TestViaPostman.JPG "Testing via Postman")<br/>
+
+Paricularly for test case#7, those info following "--data" option of curl command can be fed into Postman as shown in screenshot below.<br/>
+![Speicying Data via Postman](image/SpeciyingDataViaPostman.JPG "Speicying Data via Postman")<br/>
 
 #### Verification
 Either use a web brwser to open following URL:<br/>
