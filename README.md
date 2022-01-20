@@ -123,7 +123,7 @@ Where &lt;clone path&gt; is the clone gained through aforementioned process.<br/
 Then you will see the cloning process as shown below.<br/>
 ![Cloning Project](image/cloningProject.JPG "Cloning Project")<br/>
 
-## Execution
+## _Execution_
 Under a GitBash or VS Code, issue following command to execute the app.<br/>
 <code>
 go run .
@@ -131,7 +131,7 @@ go run .
 Either under VS Code or GitBash, once seeing following message, prepare to go to a browser for further testing from frontend.<br/>
 ![Backend Execution Message](image/backendExecution.JPG "Backend Execution Message")<br/>
 
-## Test
+## _Test_
 ### Test Plan
 There are eight test cases as explained below through a matric mapping between test cases and requirements.<br/>
 | Test Case | URL or Tool    | REQ Id | Description | Expected Result |
@@ -202,14 +202,14 @@ or shell script<br/>
 ./curlGetArticle19.sh
 </code><br/>
 
-## Via Postman
+### Via Postman
 Same above mentioned tests can also be conduct through Postman. Be sure to utlisie those aforementioned URLs in Postman. Screenshot shown below tells the corresponding test scripts.<br/>
 ![Testing via Postman](image/TestViaPostman.JPG "Testing via Postman")<br/>
 
 Paricularly for test case#7, those info following "-d", or "--data", option of curl command can be fed into Postman as shown in screenshot below.<br/>
 ![Speicying Data via Postman](image/SpeciyingDataViaPostman.JPG "Speicying Data via Postman")<br/>
 
-## Configuration
+## _Configuration_
 Eventhough it's kind of low frequency of adjustment, I make following three constants configurable at the beginning of codebase **_main.go_**.
 | Constant | Value |
 |---------------|:---------|
@@ -217,7 +217,7 @@ Eventhough it's kind of low frequency of adjustment, I make following three cons
 | ARTICLES_FILE | articles.json |
 | MAX_ARTICLES_OF_TAGNAME_DATE_QUERY | 10 |
 
-## Wishlist
+## _Wishlist_
 - Move articles data from file to MongoDB.
 - Integrate Selenium + Ginkgo + Gomock for automated web application test.
 - Upon closure of the API application, the executioner should be asked whether to save the recent addition of article(s), very likely through "POST" act, back to data file **_articles.json_**.
