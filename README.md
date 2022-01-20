@@ -221,4 +221,4 @@ Eventhough it's kind of low frequency of adjustment, I make following three cons
 - Move articles data from file to MongoDB.
 - Integrate Selenium + Ginkgo + Gomock for automated web application test.
 - Upon closure of the API application, the executioner should be asked whether to save the recent addition of article(s), very likely through "POST" act, back to data file **_articles.json_**.
-- For requirement#1 (R1) re POST request act, do consider checking whether there exists a redundant article; if so, should reject the request. Of course, the criteria of redundancy is to be discussed: jointly Id, Title? Or more?
+- For requirement#1 (R1) re POST request act, do consider checking whether there exists a redundant article; if so, should reject the request. Of course, the criteria of redundancy is to be discussed: jointly Id and Title? Or more?
