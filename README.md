@@ -204,7 +204,7 @@ Paricularly for test case#7, those info following "-d", or "--data", option of c
 #### Verification
 Either use a web brwser to open following URL:<br/>
 <code>localhost:8080/articles/19</code><br/>
-or shell script under GetBash:<br/>
+or shell script<br/>
 <code>
 ./curlGetArticle19.sh
 </code><br/>
