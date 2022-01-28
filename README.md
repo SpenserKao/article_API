@@ -1,6 +1,6 @@
 # Technical Test on Article API
 ## _Abstract_
-This document is the document of pet project *article API*, outlining its requirements, design, development environment, setup/installation, execution and test. Maintenance wise, some configurable attributes, eventhough less frequently changed, have been moved to configuration. Last but not the least, Wishlist outlines what can be improved, time permitting.<br/> <br/>
+Thiscis the document of pet project *article API*, outlining its requirements, design, development environment, setup/installation, execution and test. Maintenance wise, some configurable attributes, eventhough less frequently changed, have been moved to configuration. Last but not the least, Wishlist outlines what can be improved, time permitting.<br/> <br/>
 **Each original requirement is assigned a unique id starting with capital 'R'**, which helps requirements management, especially when no management system is in place that is critical for team-based software development.
 Such unique requirement identification is also vital in designing test plan, particularly test case-to-requirement matrix. In addition, these requirement ids have been cited in codebase for pertinent implementation.<br/><br/>
 Other than three endpoins specified in the original requirements, I have further added one (**_R4_**) to list attributes of all articles.
