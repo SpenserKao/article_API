@@ -1,4 +1,4 @@
-# Technical Test on Article API
+# Pet Project Article RESTful API
 ## _Abstract_
 This is the document of pet project *article RESTful API*, outlining its requirements, design, development environment, setup/installation, execution and test. Maintenance wise, some configurable attributes, eventhough less frequently changed, have been moved to configuration. Last but not the least, Wishlist outlines what can be improved, time permitting.<br/> <br/>
 **Each original requirement is assigned a unique id starting with capital 'R'**, which helps requirements management, especially when no management system is in place that is critical for team-based software development.
